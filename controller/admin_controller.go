@@ -133,6 +133,8 @@ func (ac *AdminController) PostLogin(context iris.Context) mvc.Result {
 	var adminLogin AdminLogin
 	ac.Ctx.ReadJSON(&adminLogin)
 
+
+
 	//数据参数检验
 	if adminLogin.UserName == "" || adminLogin.Password == "" {
 		return mvc.Response{

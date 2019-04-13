@@ -67,6 +67,7 @@ func mvcHandle(app *iris.Application) {
 	//管理员模块功能
 	adminService := service.NewAdminService(engine)
 
+
 	admin := mvc.New(app.Party("/admin"))
 	admin.Register(
 		adminService,

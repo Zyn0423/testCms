@@ -42,6 +42,7 @@ func (ac *adminSevice) GetAdminCount() (int64, error) {
 		panic(err.Error())
 		return 0, err
 	}
+
 	return count, nil
 }
 
