@@ -3,11 +3,11 @@ package controller
 import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
-	"irisDemo/CmsProject/service"
+	"CmsProject/CmsProject/service"
 	"github.com/kataras/iris/sessions"
 	"encoding/json"
-	"irisDemo/CmsProject/utils"
-	"irisDemo/CmsProject/model"
+	"CmsProject/CmsProject/utils"
+	"CmsProject/CmsProject/model"
 )
 
 /**

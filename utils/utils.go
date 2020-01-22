@@ -1,10 +1,11 @@
 package utils
 
 import (
-	"reflect"
-	"github.com/goes/logger"
 	"fmt"
+	"github.com/goes/logger"
 	"github.com/kataras/iris"
+	"reflect"
+	//"github.com/kataras/iris/middleware/logger"
 	"time"
 )
 

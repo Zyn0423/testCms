@@ -1,15 +1,15 @@
 package main
 
 import (
+	"CmsProject/CmsProject/config"
+	"CmsProject/CmsProject/controller"
+	"CmsProject/CmsProject/datasource"
+	"CmsProject/CmsProject/service"
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/context"
 	"github.com/kataras/iris/mvc"
-	"irisDemo/CmsProject/service"
-	"irisDemo/CmsProject/controller"
-	"irisDemo/CmsProject/datasource"
 	"github.com/kataras/iris/sessions"
 	"time"
-	"irisDemo/CmsProject/config"
 )
 
 func main() {

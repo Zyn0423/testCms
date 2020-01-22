@@ -2,10 +2,10 @@ package controller
 
 import (
 	"github.com/kataras/iris"
-	"irisDemo/CmsProject/service"
+	"CmsProject/CmsProject/service"
 	"github.com/kataras/iris/sessions"
 	"github.com/kataras/iris/mvc"
-	"irisDemo/CmsProject/utils"
+	"CmsProject/CmsProject/utils"
 	"strconv"
 )
 

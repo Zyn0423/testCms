@@ -3,7 +3,7 @@ package controller
 import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/sessions"
-	"irisDemo/CmsProject/service"
+	"CmsProject/CmsProject/service"
 )
 
 //商店功能模块控制结构体

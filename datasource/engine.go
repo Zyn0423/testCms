@@ -1,9 +1,9 @@
 package datasource
 
 import (
+	"CmsProject/CmsProject/model"
 	_ "github.com/go-sql-driver/mysql" //不能忘记导入
 	"github.com/go-xorm/xorm"
-	"irisDemo/CmsProject/model"
 )
 
 /**
